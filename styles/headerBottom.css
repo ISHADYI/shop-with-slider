@@ -1,0 +1,20 @@
+.header__bottom{
+    margin-bottom: 40px;
+
+}
+.header__bottom_nav{
+
+}
+.header__bottom_nav-link{
+    margin-right: 16px;
+    font-size: 16px;
+    opacity: .6;
+}
+.header__bottom_nav-link:hover{
+    transition: .3s ease;
+    opacity: 1;
+}
+.header__bottom_nav-link_active{
+    opacity: 1;
+    border-bottom: 1px #101920 solid;
+}

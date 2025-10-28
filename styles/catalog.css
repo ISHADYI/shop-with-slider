@@ -1,0 +1,39 @@
+.catalog{
+    margin-bottom: 120px;
+}
+.catalog__cards{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 24px;
+}
+.catalog__card{
+
+}
+.catalog__card_img{
+    border-radius: 20px;
+    height: 200px;
+    width: 100%;
+}
+.catalog__card_name{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 110%;
+
+    margin-top: 20px;
+}
+.catalog__card_info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.catalog__card_stars{
+    display: flex;
+    gap: 4px;
+}
+.catalog__card_stars-icon{
+    width: 14px;
+}
+.catalog__card_price{
+    font-size: 18px;
+    font-weight: 400;
+}
