@@ -6,14 +6,8 @@
     gap: 24px;
 }
 .carousel-inner{
-    /* flex: 1; */
     border-radius: 20px;
 }
-.w-100{
-    
-}
-
-
 
 
 .slider__stock{
@@ -30,7 +24,7 @@
     padding: 30px 20px;
     border-radius: 20px;
 
-    font-family: "Inter", sans-serif;
+    
 }
 .slider__stock_title{
     color: #E6E1E7;

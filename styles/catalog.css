@@ -4,15 +4,22 @@
 .catalog__cards{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    gap: 24px;
+    column-gap: 24px;
+    row-gap: 40px;
 }
 .catalog__card{
-
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.catalog__card:hover{
+    transform: translateY(-5px);
 }
 .catalog__card_img{
     border-radius: 20px;
     height: 200px;
     width: 100%;
+
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 .catalog__card_name{
     font-size: 20px;
